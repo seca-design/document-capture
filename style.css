@@ -38,7 +38,7 @@ html, body{
 }
 
   .taken{
-    transform: rotate(90deg);
+    transform: rotate(-90deg);
     height: 300px!important;
     width: 205px!important;
     transition: all 0.0s ease-in;
