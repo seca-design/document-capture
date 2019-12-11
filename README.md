@@ -1,1 +1,1 @@
-# document-capture
+# camera-app
