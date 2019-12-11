@@ -11,9 +11,6 @@ html, body{
       width: 100%;
       object-fit: cover;
   }
-  
-  
-
 
   #camera--overlay{
       height: 812px;
@@ -41,6 +38,7 @@ html, body{
 }
 
   .taken{
+      transform: rotate(-90deg);
     height: 205px!important;
     width: 300px!important;
     transition: all 0.0s ease-in;
