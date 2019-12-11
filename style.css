@@ -31,13 +31,16 @@ html, body{
       z-index: 5;
   }
   
-  .ocr{
-    background-image: url("images/confirm.png");
-   
-    z-index: 8;
+  #ocr--confirm{
+    display: none;
+    position: fixed;
+    height: 812px; 
+    width: 375px;
+    z-index: 6;
 }
 
   .taken{
+    background-image: url("images/confrim.png");
     transform: rotate(-90deg);
     height: 300px!important;
     width: 205px!important;
@@ -46,7 +49,7 @@ html, body{
     border-radius: 25px;
     box-shadow: 0 5px 10px 0 rgba(0,0,0,0.2);
     position: fixed;
-    top: 210px;
+    top: 150px;
     left: 85px;
     z-index: 7;
 }
